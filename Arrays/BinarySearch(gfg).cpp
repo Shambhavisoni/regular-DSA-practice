@@ -2,7 +2,7 @@ class Solution {
   public:
   int helper(int arr[],int k,int s,int e){
       //first approach
-      int mid=(s+e)/2;
+      /*int mid=(s+e)/2;
       if(arr[mid]==k){
               return mid;
       }
@@ -16,7 +16,7 @@ class Solution {
           }
           
       }
-      return -1;
+      return -1;*/
       
       //second approach
       if(s>e){
